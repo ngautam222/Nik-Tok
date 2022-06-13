@@ -1,0 +1,27 @@
+.sidebar {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    color: aliceblue;
+
+}
+
+.button1 {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+.button2 {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.button3 {
+    text-align: center;
+    position: relative;
+    padding: 10px;
+
+}

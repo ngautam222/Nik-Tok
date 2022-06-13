@@ -1,0 +1,50 @@
+.vidfooter {
+    position: absolute;
+    color: white;
+    bottom: 40px;
+    display: flex;
+    margin-left: 40px;
+    display: flex;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.vidfooter_text {
+    flex: 1;
+    padding-right: 2;
+
+}
+
+.par {
+    display: flex;
+}
+
+.tick {
+    padding-left: 2px;
+}
+
+.yo {
+    height: 25px;
+    width: 25px;
+}
+
+.record {
+    margin-top: 13px;
+
+    animation: spinner infinite 5s linear;
+    height: 50px;
+    filter: invert(1);
+    margin-left: 300px;
+
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
